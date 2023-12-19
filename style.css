@@ -1,0 +1,128 @@
+.logo{
+    height:80px;
+    width:80px;
+    border-radius:50% 0 50% 0;
+}
+.logo1{
+  height:80px;
+  width:80px;
+  border:2px solid white;
+  border-radius:50%;
+}
+.header{
+    background-color:black;
+}
+.title-text{
+    display:flex;
+    height:45vh;
+ 
+}
+.navigation{
+  color:white;
+  font-family: 'Grandiflora One', cursive;
+  font-weight: bold;
+  letter-spacing:3px;
+}
+
+.title-page{
+    background: linear-gradient(
+      45deg,
+      #1B262C 0%,
+      #82a2fa 20%,
+      #512B81 40%,
+      #4477CE 60%,
+      #8CABFF 80%,
+      #e8eff9 100%
+    );
+    background-size: 400% 400%;
+    background-position: 400%;
+    animation: gradient 10s ease infinite;
+  }
+  
+.name{
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;;
+    font-weight: 100;
+    font-size: 4rem;
+    letter-spacing: 1.5rem;
+    justify-content: center;
+    align-content: center;
+    line-height: 6rem;
+  }
+.mukeshkhanna{
+  font-weight:600;
+  letter-spacing: 3rem;
+}
+@media(max-width:768px){
+  .name,.mukeshkhanna{
+    font-size:2rem;
+    letter-spacing:0.5rem;
+  }
+}
+  
+ 
+  @keyframes gradient {
+    0% {
+      background-position: 0%;
+    }
+    50% {
+      background-position: 50%;
+    }
+    100% {
+      background-position: 0%;
+    }
+  }
+  .title-page-img{
+    display: flex;
+    height:250px;
+    justify-content: right;
+    padding-bottom: 10px;    
+  }
+
+  .logo1{
+  transition: transform 0.5s ease;
+  }
+  .logo1:hover{
+  transform:scale(1.2)
+  }
+  #about-photo{
+    height:150px;
+    width:150px;
+    object-fit:cover;
+    border-radius: 50%;
+  }
+ .heading-text{
+  color:#512B81;
+  font-family:'Merienda', cursive;
+ }
+ #about-me{
+  margin-bottom:400px;
+  padding-top:150px;
+ }
+ .about-cont{
+  border:0.5px solid gray;
+  border-radius:20px;
+ }
+ #skills{
+  margin-bottom:100px;
+ }
+ .skills-image{
+  height:250px;
+  width:250px;
+ }
+ #skills-image{
+  display:flex;
+  justify-content: center;
+ }
+ .skills-para{
+  text-align: justify;
+ }
+ .featurette{
+  display:flex;
+ }
+ .pt{
+  padding-top:60px; 
+ }
+ .artist-img{
+  border-radius:50%;
+ }
